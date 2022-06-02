@@ -46,4 +46,3 @@ us_prox_iio-y := $(MIUS_IIO_OBJS)
 
 
 # inject some build related information
-DEFINES += -DBUILD_TIMESTAMP=\"$(shell date -u +'%Y-%m-%dT%H:%M:%SZ')\"

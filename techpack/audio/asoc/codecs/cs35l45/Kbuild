@@ -107,4 +107,3 @@ obj-$(CONFIG_SND_SOC_CS35L45) += cs35l45_dlkm.o
 cs35l45_dlkm-y := $(CS35L45_OBJS)
 
 # inject some build related information
-DEFINES += -DBUILD_TIMESTAMP=\"$(shell date -u +'%Y-%m-%dT%H:%M:%SZ')\"
